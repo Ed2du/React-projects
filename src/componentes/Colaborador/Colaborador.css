@@ -1,0 +1,37 @@
+.card {
+    background-color: #fff;
+    display: inline-block;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px 0px #00000014;
+}
+
+.bold-part {
+    background-color: #57C278;
+    height: 80px;
+    border-radius: 8px 8px 0 0;
+}
+
+.Img-card {
+    position: relative;
+    bottom: -30%;
+    border-radius: 50%;
+    max-width: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+.normal-part {
+    padding-top: 5em;
+}
+
+.Card-title {
+    font-size: 1.125rem;
+    color: #6278F7;
+}
+
+.Card-description {
+    font-size: 1rem;
+    color: #212121;
+    font-weight: 400;
+}

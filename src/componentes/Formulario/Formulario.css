@@ -1,0 +1,30 @@
+.Form-content {
+    text-align: left;
+    background-color: #F6F6F6;
+    box-shadow: 7px 7px 15px 0px #00000014;
+    padding: 0.5em 5em 1em 5em;
+    margin: 4em 10em;
+    color: #212121;
+    border-radius: 8px;
+}
+
+.Form-title {
+    font-weight: 500;
+    text-align: left;
+}
+
+@media screen and (max-width: 769px) {
+    .Form-content {
+        margin: 4em 5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Form-content {
+        padding: 0.2em 0.5em;
+    }
+
+    .Form-title {
+        font-size: 1.2rem;
+    }
+}
